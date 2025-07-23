@@ -1,0 +1,41 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  max-width: 65%;
+  margin-left: 11%;
+  margin-top: 7.5%;
+}
+
+.intro__title {
+  font-family: "Inter-black", Arial, sans-serif;
+  font-size: 54px;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.intro__quote {
+  font-size: 24px;
+  line-height: 1.4;
+  margin-top: 4%;
+  margin-bottom: 0;
+}
+
+.intro__quote-autor {
+  font-size: 24px;
+  line-height: 1.4;
+  margin-top: 1.5%;
+  margin-bottom: 0;
+  text-align: right;
+  width: 88%;
+}
+
+.intro__text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 4%;
+  margin-bottom: 0;
+  width: 88%;
+}
