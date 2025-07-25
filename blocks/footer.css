@@ -1,14 +1,24 @@
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-top: 7%;
-  margin-bottom: 2%;
+  margin-top: 90px;
 }
 
 .footer__text {
   font-size: 14px;
-  line-height: 1.2;
-  margin: 0;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin-top: 90px;
+  }
+
+  @media screen and (max-width: 544px) {
+    .footer {
+      margin-top: 65px;
+    }
+
+    .footer__copyright {
+      line-height: 1;
+    }
+  }
 }

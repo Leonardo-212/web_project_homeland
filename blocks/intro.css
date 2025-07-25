@@ -1,41 +1,75 @@
 .intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  position: relative;
-  max-width: 65%;
-  margin-left: 11%;
-  margin-top: 7.5%;
+  margin-left: 148px;
+  max-width: 830px;
 }
 
 .intro__title {
-  font-family: "Inter-black", Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
   font-size: 54px;
-  line-height: 1.1;
-  margin: 0;
+  line-height: 0.93;
+  max-width: 800px;
+  margin-bottom: 40px;
+  font-weight: 900;
 }
 
 .intro__quote {
   font-size: 24px;
-  line-height: 1.4;
-  margin-top: 4%;
-  margin-bottom: 0;
+  max-width: 738px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 0.7;
 }
 
 .intro__quote-autor {
+  display: flex;
   font-size: 24px;
-  line-height: 1.4;
-  margin-top: 1.5%;
-  margin-bottom: 0;
-  text-align: right;
-  width: 88%;
+  font-weight: 400;
+  justify-content: flex-end;
+  margin-bottom: 32px;
+  max-width: 732px;
 }
 
 .intro__text {
+  margin-bottom: 92px;
+  max-width: 680px;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.6;
-  margin-top: 4%;
-  margin-bottom: 0;
-  width: 88%;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 544px) {
+  .main {
+    max-width: 720px;
+    max-height: 573px;
+    margin: 0px auto 88px auto;
+  }
+  .main__title {
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
+  .main__phrase {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .main {
+    max-width: 288px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main__title {
+    font-size: 32px;
+  }
+  .main__phrase {
+    margin-bottom: 10px;
+  }
+  .main__author-phrase {
+    margin-bottom: 32px;
+  }
+  .main__description {
+    margin-bottom: 64px;
+  }
 }
