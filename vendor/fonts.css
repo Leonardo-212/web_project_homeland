@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Inter;
+  src: url(./fonts/ArchivoBlack-Regular.woff2);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./fonts/Inter-Italic.woff2);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(./fonts/Ubuntu-Regular.woff2);
+}
+
+@font-face {
+  font-family: NotoSerif;
+  src: url(./fonts/NotoSerif-Italic.woff2);
+}
+
+@font-face {
+  font-family: IstokWeb;
+  src: url(./fonts/IstokWeb-Regular.woff2);
+}
